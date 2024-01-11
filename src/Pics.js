@@ -1,0 +1,1 @@
+const mpPic = require('../pics/mpSite.png')

@@ -1,38 +1,245 @@
-.App {
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover{
+  color:#f75c96;
+}
+h1, h2{
+  font-size: 2.8em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+h3, h4{
+  font-family: 'Oswald', sans-serif;
+}
+p, a{
+  font-family: 'Lora', serif;
+}
+.mb50{
+  margin-bottom: 50px;
+}
+.pink{
+  color:#f75c96;
+}
+.activeTab{
+  color:#f75c96 !important;
+}
+.btn:hover{
+  color:lightgray !important;
+}
+.inline{
+  display:inline;
+}
+.hide{
+  display: none;
+}
+.show{
+  display:block;
+}
+.white{
+  color:white;
+}
+.menuArea li:hover{
+  cursor: pointer;
+}
+.project img{
+  width:100%;
+}
+.pText{
+  background: rgb(247, 92, 150, .8);
+}
+.hamburger:hover, #chev:hover, #insta:hover, #linkedIn:hover, #github:hover{
+  cursor: pointer;
+}
+.hamburgerStyle {
+  width: 40px;
+  float:right;
+  margin-top:30px;
+}
+.navBarStyle{
+  height: 5px;
+  background: #f75c96;
+  margin-bottom:5px;
+  border-radius:5px;
+}
+
+/* hamburger x */
+
+.xTop {
+  transform: rotate(45deg);
+  margin-top: 10px;
+  transition: transform 1s;
+  
+}
+.xMid {
+  display:none;
+}
+.xBottom {
+  transform: rotate(-45deg);
+  margin-top: -10px;
+  transition: transform 1s;
+  
+}
+.bird{
+  transform: scaleX(1);
+  transition: transform 1s;
+}
+.flipBird{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transition: transform 1s;
+}
+.nav-link:hover{
+  background:rgba(0, 0, 0, .5)
+}
+#chev:hover{
+  background: rgba(0, 0, 0, .9) !important;
+}
+.otherSites a{
+  color:white;
+}
+.otherSites a:hover{
+  color:#f75c96;
+}
+
+.nav{
+  justify-content: flex-end !important;
+}
+
+  .footerTag{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color:#f75c96;
+    font-size: 2.7em;
+    margin-top:5px;
+  }
+
+.whiteBG{
+  background:rgba(255, 255, 255, .8)
+}
+.pinkLink{
+  color:#f75c96;
+  background-color: rgba(0,0,0,.8);
+}
+.pinkLink:hover{
+  color:white;
+}
+.partnerMobile{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#portfolio p{
+  color:white;
+}
+#portfolio a{
+  color:white;
+}
+#portfolio a:hover{
+  color:black;
+}
+#portfolio img:hover{
+  cursor: pointer;
+}
+#portfolio h2, #portfolio h3{
+  color:black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*flip card css */
+.flip-card {
+  width: 100%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color:black;
+}
+
+/* Style the back side */
+.flip-card-back {
   color: white;
+  transform: rotateY(180deg);
+}
+/* this is the end of flip card css */
+
+.projects img{
+  margin-top: 10%;
+  margin-bottom:20px;
 }
 
-.App-link {
-  color: #61dafb;
+@media(max-width:767px){
+  .footerTag{
+    text-align: center;
+  }
+  .nav{
+    justify-content: center;
+  }
+  .poloroid{
+    margin-bottom: 75px;
+  }
+  .partnerDT{
+    visibility: hidden;
+  }
+  .ivyImg, .bangLogo, .terrapexImage{
+    margin-top: 20% !important;
+  }
+  #partners{
+    margin-bottom:75px;
+  }
+  #partners{
+    background-size:50% !important;
+  }
+  .partnerMobile img{
+    width:65% !important;
+  }
+  .partnerMobile{
+    background-color: rgba(0, 0, 0, 0.9);
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media(min-width:767px){
+  .partnerMobile{
+    visibility: hidden;
   }
 }
+
+@media(max-width:575px){
+  .hamburger{
+    position: absolute;
+    right:15px;
+    top:30px;
+  }
+  .nav{
+    justify-content: center !important;
+  }
+  #chev{
+    right:15px;
+  }
+}
+
+
