@@ -4,9 +4,7 @@ const dormieLogo = require('../pics/dormie-logo.png')
 const banglogo = require('../pics/bangalbino-logo.png')
 const terrapex = require('../pics/TerrapexWhite.png')
 const ivyLogo = require('../pics/ivy-logo-white.png')
-const goodwoodLogo = require('../pics/goodwoodLogo.png')
-const bujoldLogo = require('../pics/bujoldLogo.png')
- const test = require('../pics/jmSite.png')
+
 
 
 const partners = {

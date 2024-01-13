@@ -1,21 +1,21 @@
 [
     {
         "title": "Messenger Pigeon",
-        "picture":"/static/media/mpSite3.b6fbbe64d84ba704d674.png",
+        "picture":"img/mpSite3.png",
         "blurb": "Create an account, login and drop me a line. Messenger Pigeon is a forum page where you can write a message or contribute to a conversation.",
         "tech": "ReactJS, NodeJS, MySQL",
         "address": "https://messengerpigeon.space/"
     },
     {
         "title": "Mandy Bujold",
-        "picture":"/static/media/mbSite.4bf7ce9bca38f7142a69.png",
+        "picture":"img/mbSite.png",
         "blurb": "Eleven-time 51kg National Boxing Champion and 2 time Olympian, Mandy Bujold's profile website.",
         "tech": "Wordpress, HTML, CSS, JavaScript, PHP, MySQL",
         "address": "https://mandybujold.com/"
     },
     {
         "title": "Good Wood Tree Care",
-        "picture":"/static/media/jmSite.dd2d895a14e1a5abd02a.png",
+        "picture":"img/jmSite.png",
         "blurb": "A company website for a full service tree care company that specializes in urban tree care",
         "tech": "Wordpress, HTML, CSS, JavaScript, PHP, MySQL",
         "address": "https://goodwoodtree.com/"
