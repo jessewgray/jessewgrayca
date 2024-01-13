@@ -9,7 +9,7 @@ const Projects = () =>  {
             '_blank' // <- This is what makes it open in a new window.
           );
     }
-    const url = "http://localhost:3000"
+    const url = "https://jessewgray.ca/"
 
     //const bujoldLogo = require('../pics/mbSite.png')
     
