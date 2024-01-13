@@ -8,7 +8,7 @@ const Footer = () => {
     }
 
     const reloadPage = () => {
-        window.location.href = "https://www.jessewgray.ca"
+        window.location.href = "https://jessewgray.ca"
     }
 
 
