@@ -9,7 +9,7 @@ const Projects = () =>  {
             '_blank' // <- This is what makes it open in a new window.
           );
     }
-    const url = "https://jessewgray.ca/"
+    const url = "https://jessewgray.ca"
 
     //const bujoldLogo = require('../pics/mbSite.png')
     
