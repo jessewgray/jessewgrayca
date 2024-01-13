@@ -7,13 +7,17 @@ const Footer = () => {
         color:"white"
     }
 
+    const reloadPage = () => {
+        window.location.href = "https://www.jessewgray.ca"
+    }
+
 
     return (
         <div style={{background:"black", padding:"50px 0px"}}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <p className="footerTag">JESSEWGRAY.CA</p>
+                        <p className="footerTag" onClick={reloadPage}>JESSEWGRAY.CA</p>
                     </div>
                     <div className="col-md-8">
                         <ul className="nav justify-content-end" style={{color:"white"}}>
@@ -36,7 +40,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <p style={{color:'white'}}>test</p>
         </div>
     )
 }
