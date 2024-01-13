@@ -9,7 +9,7 @@ const Projects = () =>  {
             '_blank' // <- This is what makes it open in a new window.
           );
     }
-    const url = "https://jessewgray.ca"
+    const url = "https://jessewgray.ca/"
 
     //const bujoldLogo = require('../pics/mbSite.png')
     
@@ -19,7 +19,7 @@ const Projects = () =>  {
                 //console.log('this is the first and last one')
                 
                 return <div className="col-md-4 project" key={index}>
-                    <img src={aProject.picture} onClick={() => goToAddress(aProject.address)}/>
+                    <img src={url + aProject.picture} onClick={() => goToAddress(aProject.address)}/>
                     <div className="pText"><h3>{aProject.title}</h3>
                     <p>{aProject.blurb}</p>
                     <p>Tech: {aProject.tech}</p>
@@ -29,7 +29,7 @@ const Projects = () =>  {
             }else if(index === theProjects.length -1){
                 //console.log('this is the last one')
                 return <div className="col-md-4 project" key={index}>
-                    <img src={aProject.picture} onClick={() => goToAddress(aProject.address)}/>
+                    <img src={url + aProject.picture} onClick={() => goToAddress(aProject.address)}/>
                     <div className="pText"><h3>{aProject.title}</h3>
                     <p>{aProject.blurb}</p>
                     <p>Tech: {aProject.tech}</p>
@@ -40,7 +40,7 @@ const Projects = () =>  {
             else if (index % 3 === 0){
                 //console.log(index + ", this will be the opener")
                 return <div className="col-md-4 project" key={index}>
-                    <img src={aProject.picture} onClick={() => goToAddress(aProject.address)}/>
+                    <img src={url + aProject.picture} onClick={() => goToAddress(aProject.address)}/>
                     <div className="pText"><h3>{aProject.title}</h3>
                     <p>{aProject.blurb}</p>
                     <p>Tech: {aProject.tech}</p>
@@ -50,7 +50,7 @@ const Projects = () =>  {
             }else if((index + 1) % 3 === 0){
                // console.log(index + ", this will be the closer")
                 return <div className="col-md-4 project" key={index}>
-                    <img src={aProject.picture} onClick={() => goToAddress(aProject.address)}/>
+                    <img src={url + aProject.picture} onClick={() => goToAddress(aProject.address)}/>
                     <div className="pText"><h3>{aProject.title}</h3>
                     <p>{aProject.blurb}</p>
                     <p>Tech: {aProject.tech}</p>
@@ -60,7 +60,7 @@ const Projects = () =>  {
             }else{
                // console.log(index + ", this is the center")
                 return <div className="col-md-4 project" key={index}>
-                    <img src={aProject.picture} onClick={() => goToAddress(aProject.address)}/>
+                    <img src={url + aProject.picture} onClick={() => goToAddress(aProject.address)}/>
                     <div className="pText"><h3>{aProject.title}</h3>
                     <p>{aProject.blurb}</p>
                     <p>Tech: {aProject.tech}</p>

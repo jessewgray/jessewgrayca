@@ -36,6 +36,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <p style={{color:'white'}}>test</p>
         </div>
     )
 }
