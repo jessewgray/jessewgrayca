@@ -147,6 +147,10 @@ p, a{
 #portfolio h2, #portfolio h3{
   color:black;
 }
+.bigPink{
+  color:#f75c96;
+  font-size: 1.5em;
+}
 
 /*flip card css */
 .flip-card {

@@ -39,9 +39,9 @@ const Tabs = () => {
                         </div>
                         <div className="col-md-4">
                             <p className="white">Where I shine:</p>
-                            <p className="white">HTML, CSS, JavaScript, ReactJS, NodeJS, PHP, MySQL, WordPress</p>
+                            <p className="bigPink">HTML, CSS, JavaScript, ReactJS, NodeJS, PHP, MySQL, WordPress</p>
                             <p className="white">Also:</p>
-                            <p className="white">Python, Flask, Shopify</p>
+                            <p className="bigPink">Python, Flask, Shopify</p>
                         </div>      
                     </div>
                     
@@ -57,7 +57,7 @@ const Tabs = () => {
                         </div>
                         <div className="col-md-4">
                             <p className="white">How I stay on track:</p>
-                            <p className="white">Agile, Scrum, Jira, Monday</p>
+                            <p className="bigPink">Agile, Scrum, Jira, Monday</p>
                         </div>
                     </div>
                 </div>
@@ -71,9 +71,9 @@ const Tabs = () => {
                         </div>
                         <div className="col-md-4">
                             <p className="white">Tools of the trade:</p>
-                            <p className="white">Bitbucket, GitHub, ZenDesk</p>
+                            <p className="bigPink">Bitbucket, GitHub, ZenDesk</p>
                             <p className="white">Hosting with:</p>
-                            <p className="white">Azure, GoDaddy, Bluehost</p>
+                            <p className="bigPink">Azure, GoDaddy, Bluehost</p>
                         </div>
                     </div>
                 </div>
