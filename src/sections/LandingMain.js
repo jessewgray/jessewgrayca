@@ -18,7 +18,7 @@ const LandingMain = () => {
                 anyNum = 0
             }
             setTheNum(anyNum)
-            }, 3000);
+            }, 2500);
         return () => clearInterval(interval);
       }, []);
 
