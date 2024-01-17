@@ -250,6 +250,7 @@ p, a{
   .inline {
     display: inherit;
     list-style: none;
+    padding-left:0px;
   }
 }
 
