@@ -247,6 +247,10 @@ p, a{
   #chev{
     right:15px;
   }
+  .inline {
+    display: inherit;
+    list-style: none;
+  }
 }
 
 
