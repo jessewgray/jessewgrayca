@@ -63,7 +63,7 @@ const Tabs = () => {
                     <h2>Other</h2>                    
                     <div className="row">
                         <div className="col-md-8">
-                            <p className="white">So, here's the scoop on my role: I'm the go-to person for incident reporting and task tracking, playing digital superhero. But wait, there's more! I give our client-hosted sites VIP treatment through regular check-ups and updates, ensuring top-notch performance on servers.</p>
+                            <p className="white">Here's the scoop on my role: I'm the go-to person for incident reporting and task tracking, playing digital superhero. But wait, there's more! I give our client-hosted sites VIP treatment through regular check-ups and updates, ensuring top-notch performance on servers.</p>
                             <p className="white">Using version control to back up code bases is our safety net, primed for unexpected twists. I'm here not just to manage digital chaos but also to keep everything safe and up-to-date, ensuring all systems rock!</p>
                         </div>
                         <div className="col-md-4">
