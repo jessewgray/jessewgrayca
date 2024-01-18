@@ -64,7 +64,7 @@ const Tabs = () => {
                     <div className="row">
                         <div className="col-md-8">
                             <p className="white">So, here's the scoop on my role: I'm the go-to person for incident reporting and task tracking, playing digital superhero. But wait, there's more! As the backstage guru, I give our client-hosted sites VIP treatment through regular check-ups and updates, ensuring top-notch performance on servers.</p>
-                            <p className="white">The secret sauce? Backing up code bases with version control—our safety net for any unexpected twists. I'm here, not just managing digital chaos but keeping everything safe and up-to-date, ensuring all systems rock!</p>
+                            <p className="white">Backing up code bases with version control is our safety net, ready for any unexpected twists. I'm here not just to manage digital chaos but also to keep everything safe and up-to-date, ensuring all systems rock!</p>
                         </div>
                         <div className="col-md-4">
                             <p className="white">Tools of the trade:</p>
