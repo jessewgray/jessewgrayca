@@ -34,7 +34,7 @@ const Tabs = () => {
                     <h2>Web Developer</h2>
                     <div className="row">
                         <div className="col-md-8">
-                            <p className="white">Got a vision for a dynamic CMS-driven site or a sleek modern app? Buckle up, I'm here to make it happen! From birthing your idea to giving it a cozy home on the web, trust me for seamless performance and killer user experiences. Let's amp up your online identity with tailored solutions that make your business's evolving digital needs shine.</p>
+                            <p className="white">Got a vision for a dynamic CMS-driven site or a sleek modern app? I'm here to make it happen! From birthing your idea to giving it a cozy home on the web, trust me for seamless performance and killer user experiences. Let's amp up your online identity with tailored solutions that make your business's evolving digital needs shine.</p>
                         </div>
                         <div className="col-md-4">
                             <p className="white">Where I shine:</p>
@@ -51,7 +51,7 @@ const Tabs = () => {
                         <div className="col-md-8">
                             <p className="white">When it comes to digital project management, count on me! Big or small, I make sure things run smoothly within budget. My mission is simple—deliver solutions on time, exceeding expectations.</p>
                             <p className="white">What's cool? Collaborating with you! It's not just a project; it's a team effort. We'll chat, brainstorm, and make it work seamlessly within timelines and budgets.</p>
-                            <p className="white">So, buckle up! I'm not just managing projects; I'm here to create success stories. Let's make some digital magic together!</p>
+                            <p className="white">So, get ready! I'm not just managing projects; I'm here to create success stories. Let's make some digital magic together!</p>
                         </div>
                         <div className="col-md-4">
                             <p className="white">How I stay on track:</p>
