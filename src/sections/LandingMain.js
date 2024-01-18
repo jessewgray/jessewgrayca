@@ -31,7 +31,7 @@ const LandingMain = () => {
                     <div className="col-md-6">
                         <div style={{margin:"10% 0", background:"rgba(255, 255, 255, .8)"}}>
                             <h1>Hello, my name is Jesse Gray and I'm a <span className="textChange pink">{textChange[theNum]}</span>.</h1>
-                            <p>Hey there! I'm Jesse Gray, the guy who loves tinkering with websites and data stuff. I've been at it for over 9 years, making me your trusty sidekick in the wild world of web development.  I've got a knack for building user-friendly solutions that help folks crush their business goals. Let's chat about turning your digital dreams into a reality. Whether you're running a cozy corner store or steering a corporate ship, I'm here to make your web journey smooth, fun, and downright awesome.</p>
+                            <p>Hi, I'm Jesse Gray, a web enthusiast with 9 years of experience. As your trusty sidekick in web development, I specialize in crafting user-friendly solutions to help you achieve your business goals. Let's turn your digital dreams into reality – whether you run a corner store or a corporate ship, I'm here to make your web journey smooth, fun, and awesome!</p>
                         </div>
                     </div>
                     <div className="col-md-6" style={{textAlign:"center"}}>

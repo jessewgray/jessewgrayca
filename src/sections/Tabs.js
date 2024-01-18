@@ -34,8 +34,7 @@ const Tabs = () => {
                     <h2>Web Developer</h2>
                     <div className="row">
                         <div className="col-md-8">
-                            <p className="white">Got a vision for a dynamic CMS-driven site or a sleek modern application? Well, buckle up, because I'm here to make it happen! Trust me to handle everything, from birthing your idea to giving it a cozy home on the web. I'm all about delivering seamless performance and killer user experiences.</p>
-                            <p className="white">So, let's amp up your online identity together! My tailored solutions are geared to meet your business's ever-evolving needs in the crazy world of digital possibilities. Let's make your online presence shine!</p>
+                            <p className="white">Got a vision for a dynamic CMS-driven site or a sleek modern app? Buckle up, I'm here to make it happen! From birthing your idea to giving it a cozy home on the web, trust me for seamless performance and killer user experiences. Let's amp up your online identity with tailored solutions that make your business's ever evolving needs shine in the digital realm.</p>
                         </div>
                         <div className="col-md-4">
                             <p className="white">Where I shine:</p>
@@ -50,10 +49,9 @@ const Tabs = () => {
                     <h2>Collaborator</h2>
                     <div className="row">
                         <div className="col-md-8">
-                            <p className="white">When it comes to digital project management, I'm your go-to person—whether it's a big project requiring intricate planning or a smaller one needing a personal touch.</p>
-                            <p className="white">I ensure everything runs smoothly within budget, regardless of project size. My mission is simple yet powerful—delivering top-notch solutions on time, exceeding expectations.</p>
-                            <p className="white">What's awesome is collaborating with clients. It's not just a project; it's a joint effort. We'll chat, brainstorm, and figure out what works best. The best part? Making sure it unfolds seamlessly within the set timelines and budgets.</p>
-                            <p className="white">So, buckle up! I'm not just managing projects; I'm here to create success stories. Let's conjure up some digital magic together!</p>
+                            <p className="white">When it comes to digital project management, count on me! Big or small, I make sure things run smoothly within budget. My mission is simple—deliver top-notch solutions on time, going beyond expectations.</p>
+                            <p className="white">What's cool? Collaborating with you! It's not just a project; it's a team effort. We'll chat, brainstorm, and make it work seamlessly within timelines and budgets.</p>
+                            <p className="white">So, buckle up! I'm not just managing projects; I'm here to create success stories. Let's make some digital magic together!</p>
                         </div>
                         <div className="col-md-4">
                             <p className="white">How I stay on track:</p>
@@ -65,9 +63,8 @@ const Tabs = () => {
                     <h2>Other</h2>                    
                     <div className="row">
                         <div className="col-md-8">
-                            <p className="white">So, here's the lowdown on what I do: I'm the go-to person for managing incident reporting and playing detective with task tracking and ticketing software. It's like being the superhero in the digital world.</p>
-                            <p className="white">But that's not all! I'm also the backstage guru, making sure our client-hosted sites get the VIP treatment. Regular check-ups and updates are like giving them a digital spa day, ensuring they stay top-notch on both local and public servers.</p>
-                            <p className="white">And the secret sauce? Backing up code bases with version control. It's our safety net, ready to roll out the red carpet if things go a bit haywire. I'm here, not just managing the digital chaos but keeping everything safe and up-to-date with all systems rocking!</p>
+                            <p className="white">So, here's the scoop on my role: I'm the go-to person for incident reporting and task tracking, playing digital superhero. But wait, there's more! As the backstage guru, I give our client-hosted sites VIP treatment through regular check-ups and updates, ensuring top-notch performance on servers.</p>
+                            <p className="white">The secret sauce? Backing up code bases with version control—our safety net for any unexpected twists. I'm here, not just managing digital chaos but keeping everything safe and up-to-date, ensuring all systems rock!</p>
                         </div>
                         <div className="col-md-4">
                             <p className="white">Tools of the trade:</p>
