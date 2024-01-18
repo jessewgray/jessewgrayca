@@ -8,7 +8,7 @@ const SectionThree = () => {
                 <div className="row">
                     <div className="col-md-12" style={{color:"white", paddingTop:"75px", paddingBottom:"75px"}}>
                         <h2>Portfolio</h2>
-                        <p className="pText" >Curious about the cool stuff I've been cooking up in the web world? Take a peek at my portfolio – it's like a backstage pass to some of the awesome projects I've worked on. From slick web apps to eye-catching data visuals, there's a bit of everything. (Check back for more soon.)</p>
+                        <p className="pText" >Curious about the cool stuff I've been cooking up in the web world? Check out my portfolio – from slick web apps to eye-catching data visuals, there's a bit of everything. (Check back for more soon.)</p>
                         <Projects />
                     </div>
                 </div>
