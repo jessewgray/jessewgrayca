@@ -29,7 +29,7 @@ const Tabs = () => {
                     <li className={showTab === 3 ? "other inline activeTab" : "other inline"} style={menuTabs} onClick={() => updateTab(3)}>Other</li>
                 </ul>
             </div>
-            <div className="jobArea" style={{background:'rgba(0, 0, 0, .9)'}}>
+            <div className="jobArea" style={{background:'rgba(0, 0, 0, .8)'}}>
                 <div className={showTab === 1 ? "show" : "hide"}>
                     <h2>Web Developer</h2>
                     <div className="row">
