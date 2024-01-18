@@ -136,10 +136,10 @@ p, a{
   color:white;
 }
 #portfolio a{
-  color:white;
+  color:black;
 }
 #portfolio a:hover{
-  color:black;
+  color:white;
 }
 #portfolio img:hover{
   cursor: pointer;
