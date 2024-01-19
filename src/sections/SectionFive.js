@@ -48,7 +48,7 @@ const SectionFive = () => {
                     <h2>Get in touch</h2>
                         <p style={{marginBottom:"1.5em", marginTop:".5em"}}>Got a project in mind or just want to chat about all things web? I'm all ears! Drop me a message and lets turn your ideas into a reality. I'm here to help, lets make something awesome together.</p>
                         
-                        <p><a href="mailto:jwgray2@gmail.com"><img style={wForty} src={email}></img>jwgray2@gmail.com</a></p>
+                        <p><a className="mail" href="mailto:jwgray2@gmail.com"><img style={wForty} src={email}></img>jwgray2@gmail.com</a></p>
                         <p><a className="phoneNum" href="tel:416-725-8095"><img src={phone} style={phoneStyle}/>(416) 725-8095</a></p>
                         <p><img id="linkedIn" src={linkedIn} style={wFifty} onClick={goLinkedin}/><img id="github" src={github} style={wForty} onClick={goGithub}/><img id="insta" src={insta} style={wFifty} onClick={goInsta}/></p>
                         <PopResume />

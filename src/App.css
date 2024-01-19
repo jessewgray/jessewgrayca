@@ -151,10 +151,18 @@ p, a{
   color:#f75c96;
   font-size: 1.4em;
 }
-.popRes, .phoneNum{
+.popRes{
   color:#f75c96;
 }
-.popRes:hover, .phoneNum{
+.popRes:hover{
+  color:black;
+  cursor: pointer;
+}
+
+.phoneNum, .mail{
+  color:#f75c96;
+}
+.phoneNum:hover, .mail{
   color:black;
 }
 
