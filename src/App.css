@@ -162,7 +162,7 @@ p, a{
 .phoneNum, .mail{
   color:#f75c96;
 }
-.phoneNum:hover, .mail{
+.phoneNum:hover, .mail:hover{
   color:black;
 }
 
