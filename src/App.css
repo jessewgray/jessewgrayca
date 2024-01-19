@@ -151,6 +151,12 @@ p, a{
   color:#f75c96;
   font-size: 1.4em;
 }
+.popRes, .phoneNum{
+  color:#f75c96;
+}
+.popRes:hover, .phoneNum{
+  color:black;
+}
 
 /*flip card css */
 .flip-card {

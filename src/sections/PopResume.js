@@ -7,7 +7,7 @@ const goToRes = () => {
 const PopResume = () => {
     return(
         <div>
-            <p onClick={goToRes}>Check out my resume</p>
+            <p onClick={goToRes} className="popRes">Check out my resume</p>
         </div>
     )
 }
