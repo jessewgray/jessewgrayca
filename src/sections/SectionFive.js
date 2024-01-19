@@ -51,7 +51,7 @@ const SectionFive = () => {
                         <p><a href="mailto:jwgray2@gmail.com"><img style={wForty} src={email}></img>jwgray2@gmail.com</a></p>
                         <p><img src={phone} style={phoneStyle}/>(416) 725-8095</p>
                         <p><img id="linkedIn" src={linkedIn} style={wFifty} onClick={goLinkedin}/><img id="github" src={github} style={wForty} onClick={goGithub}/><img id="insta" src={insta} style={wFifty} onClick={goInsta}/></p>
-                        {/* <PopResume /> */}
+                        <PopResume />
                     </div>
                 </div>
             </div>
