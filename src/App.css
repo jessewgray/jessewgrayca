@@ -153,6 +153,7 @@ p, a{
 }
 .popRes{
   color:#f75c96;
+  font-size: large;
 }
 .popRes:hover{
   color:black;
