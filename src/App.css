@@ -43,6 +43,9 @@ p, a{
 .menuArea li:hover{
   cursor: pointer;
 }
+.logo:hover{
+  cursor: pointer;
+}
 .project img{
   width:100%;
 }
