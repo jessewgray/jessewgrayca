@@ -1,10 +1,10 @@
 [
     {
-        "title": "Messenger Pigeon",
-        "picture":"img/mpSite3.png",
-        "blurb": "Create an account, login and drop me a line. Messenger Pigeon is a forum page where you can write a message or contribute to a conversation.",
-        "tech": "ReactJS, NodeJS, MySQL",
-        "address": "https://messengerpigeon.space/"
+        "title": "Push My Buttons Vending",
+        "picture":"img/pmbv1.png",
+        "blurb": "A vending machine company website with information for new and perspective clients and a contact form for inquiries.",
+        "tech": "WordPress, HTML, CSS, JavaScript, PHP, MySQL",
+        "address": "https://pushmybuttonsvending.ca/"
     },
     {
         "title": "Messenger Pigeon",
@@ -17,14 +17,14 @@
         "title": "Mandy Bujold",
         "picture":"img/mbSite.png",
         "blurb": "Eleven-time 51kg National Boxing Champion and 2 time Olympian, Mandy Bujold's profile website.",
-        "tech": "Wordpress, HTML, CSS, JavaScript, PHP, MySQL",
+        "tech": "WordPress, HTML, CSS, JavaScript, PHP, MySQL",
         "address": "https://mandybujold.com/"
     },
     {
         "title": "Good Wood Tree Care",
         "picture":"img/jmSite.png",
         "blurb": "A company website for a full service tree care company that specializes in urban tree care",
-        "tech": "Wordpress, HTML, CSS, JavaScript, PHP, MySQL",
+        "tech": "WordPress, HTML, CSS, JavaScript, PHP, MySQL",
         "address": "https://goodwoodtree.com/"
     }
 ]
