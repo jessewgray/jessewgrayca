@@ -1,7 +1,7 @@
 
 const goToRes = () => {
     console.log('working resume')
-    window.open('https://jessewgray.space/resume/resume.pdf')
+    window.open('https://jessewgray.space/resume/jesseResume.pdf')
 }
 
 const PopResume = () => {
