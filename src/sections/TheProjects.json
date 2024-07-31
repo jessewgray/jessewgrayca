@@ -1,10 +1,10 @@
 [
     {
         "title": "Push My Buttons Vending",
-        "picture":"img/pmbv1.png",
+        "picture":"img/pmbv2.png",
         "blurb": "A vending machine company website with information for new and perspective clients and a contact form for inquiries.",
         "tech": "WordPress, HTML, CSS, JavaScript, PHP, MySQL",
-        "address": "https://pushmybuttonsvending.ca/"
+        "address": "https://pushmybuttonsvending.com/"
     },
     {
         "title": "Messenger Pigeon",
