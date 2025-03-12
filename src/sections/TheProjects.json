@@ -1,5 +1,12 @@
 [
     {
+        "title": "Niagara Modular Homes",
+        "picture": "img/niagaraModula.png",
+        "blurb": "A company website specializing in high-end, pre-fabricated modular structures paired with bespoke interior finishes.",
+        "tech": "WordPress, HTML, CSS, JavaScript, PHP, MySQL",
+        "address": "https://niagaramodularhomes.com"
+    },
+    {
         "title": "Push My Buttons Vending",
         "picture":"img/pmbv2.png",
         "blurb": "A vending machine company website with information for new and perspective clients and a contact form for inquiries.",
